@@ -149,8 +149,8 @@ lcd.write(3); lcd.print(" ");
 if (temperature > trigger_t_max || temperature < trigger_t_min) {
   lcd.print("ALERTA ");
 } else if (
-  (temperature == trigger_t_min - 1 || temperature == trigger_t_min + 1) ||
-  (temperature == trigger_t_max - 1 || temperature == trigger_t_max + 1)
+  (temperature >= trigger_t_min - 1 && temperature <= trigger_t_min + 1) ||
+  (temperature >= trigger_t_max - 1 && temperature <= trigger_t_max + 1)
 ) {
   lcd.print("ATENCAO");
 } else {
@@ -162,8 +162,8 @@ lcd.write(4); lcd.print(" ");
 if (humidity > trigger_u_max || humidity < trigger_u_min) {
   lcd.print("ALERTA ");
 } else if (
-  (humidity == trigger_u_min - 1 || humidity == trigger_u_min + 1) ||
-  (humidity == trigger_u_max - 1 || humidity == trigger_u_max + 1)
+  (humidity >= trigger_u_min - 1 && humidity <= trigger_u_min + 1) ||
+  (humidity >= trigger_u_max - 1 && humidity <= trigger_u_max + 1)
 ) {
   lcd.print("ATENCAO");
 } else {
