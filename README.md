@@ -87,6 +87,8 @@ Professor: Fábio Henrique Cabrini
 
 Este projeto simula um sistema real de controle ambiental para vinherias, mas pode ser adaptado para outros ambientes sensíveis como laboratórios, estufas ou salas técnicas.
 
+Para replicar este projeto, basta seguir a montagem exibida na imagem, copiar e colar o código (presente no arquivo sketch.ino) no Arduino IDE ou no Wokwi (caso opte pela simulação) e instalar as bibliotecas necessárias (presente no tópico Bibliotecas Utilizadas nesse read.md).
+
 📽️ Demonstrações
 
  🔌 [Simulação no Wokwi](https://wokwi.com/projects/431513378894330881)  
