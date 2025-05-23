@@ -73,3 +73,9 @@ Professor: Fábio Henrique Cabrini
 
 Este projeto simula um sistema real de controle ambiental para vinherias, mas pode ser adaptado para outros ambientes sensíveis como laboratórios, estufas ou salas técnicas.
 
+📽️ Demonstrações
+
+ 🔌 [Simulação no Wokwi](https://wokwi.com/projects/431513378894330881)  
+ ▶️ [Vídeo no YouTube](https://youtu.be/ntugGNwugcQ?si=EWCUDGUSzH9O9Ako)  
+
+
